@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Финансы Просто | Личные финансы для новичков в США</title>
+  <meta name="description" content="Простой и честный гид по кредитам, кредитному рейтингу, дебетовым и кредитным картам, а также страхованию для новичков в США.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Финансы Просто",
+    "url": "https://example.com/",
+    "inLanguage": "ru",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Финансы Просто"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="/">Финансы Просто</a>
+      <nav class="menu" aria-label="Главное меню">
+        <a href="/">Главная</a>
+        <a href="/about.html">О проекте</a>
+        <a href="/contact.html">Контакты</a>
+        <a href="/privacy.html">Политика</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-wrap">
+        <div>
+          <h1>Личные финансы без сложных терминов</h1>
+          <p>Объясняем кредиты, кредитный рейтинг, карты и страховки простым языком. Материалы рассчитаны на новичков и иммигрантов в США.</p>
+          <a class="btn btn-primary" href="#articles">Читать гайды</a>
+          <a class="btn btn-secondary" href="#tool">Проверить кредитный уровень</a>
+        </div>
+        <div class="card">
+          <div class="hero-stats">
+            <div class="stat"><strong>10+</strong><span>базовых гайдов</span></div>
+            <div class="stat"><strong>0$</strong><span>доступ к материалам</span></div>
+            <div class="stat"><strong>5 мин</strong><span>на чтение статьи</span></div>
+            <div class="stat"><strong>100%</strong><span>понятный язык</span></div>
+          </div>
+          <p id="rate-box" class="muted" style="margin-top:12px;">Загрузка актуальных курсов USD...</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="articles" class="section">
+      <div class="container">
+        <h2>Стартовые статьи</h2>
+        <div class="grid-3 article-list">
+          <article class="card">
+            <span class="badge">Кредитный рейтинг</span>
+            <h3><a href="/articles/credit-score-start.html">Как поднять credit score с нуля</a></h3>
+            <p class="muted">Пошаговый план на первые 90 дней без сложных схем.</p>
+          </article>
+          <article class="card">
+            <span class="badge">Карты</span>
+            <h3><a href="/articles/debit-vs-credit.html">Дебетовая и кредитная карта: что выбрать</a></h3>
+            <p class="muted">Когда лучше платить дебетом, а когда кредиткой и зачем это важно.</p>
+          </article>
+          <article class="card">
+            <span class="badge">Страхование</span>
+            <h3><a href="/articles/insurance-basic.html">Страховка для новичка: без переплат</a></h3>
+            <p class="muted">Как выбрать базовую страховку и не купить лишнее.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tool" class="section">
+      <div class="container grid-3">
+        <div class="card" style="grid-column: span 2;">
+          <h2>Мини-калькулятор кредитного уровня</h2>
+          <p class="muted">Инструмент для понимания факторов кредитного рейтинга. Это учебная оценка, не официальный скоринг.</p>
+          <form id="score-form" class="tool">
+            <div>
+              <label for="payments">Процент платежей вовремя (%)</label>
+              <input id="payments" type="number" min="0" max="100" value="96" required>
+            </div>
+            <div>
+              <label for="utilization">Использование лимита по картам (%)</label>
+              <input id="utilization" type="number" min="0" max="100" value="28" required>
+            </div>
+            <div>
+              <label for="history">Длина кредитной истории (в месяцах)</label>
+              <input id="history" type="number" min="0" max="600" value="18" required>
+            </div>
+            <button class="btn btn-primary" type="submit">Рассчитать</button>
+            <p id="score-result" class="card" style="margin:0; box-shadow:none;"></p>
+          </form>
+        </div>
+        <aside class="card cta">
+          <h3>Важное правило</h3>
+          <p>Плати вовремя, держи utilization ниже 30% и не открывай много карт одновременно.</p>
+          <p><a href="/articles/credit-score-start.html">Смотреть полный план</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Финансы Просто. Контент носит образовательный характер и не является финансовой консультацией.</p>
+      <p><a href="/privacy.html">Политика конфиденциальности</a> · <a href="/contact.html">Связаться</a></p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
