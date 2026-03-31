@@ -3,26 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2252859516613245" crossorigin="anonymous"></script>
   <title>Финансы Просто | Личные финансы для новичков в США</title>
-  <meta name="description" content="Простой и честный гид по кредитам, кредитному рейтингу, дебетовым и кредитным картам, а также страхованию для новичков в США.">
+  <meta name="description" content="Простой гид по кредитной истории, картам, страховкам и базовым финансовым решениям для новичков в США.">
   <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Финансы Просто | Личные финансы для новичков в США">
+  <meta property="og:description" content="Понятные статьи, мини-инструменты и быстрый поиск по темам личных финансов.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:site_name" content="Финансы Просто">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Финансы Просто">
+  <meta name="twitter:description" content="Личные финансы без сложных терминов.">
+  <meta name="theme-color" content="#0f766e">
   <link rel="canonical" href="https://example.com/">
+  <link rel="alternate" hreflang="ru" href="https://example.com/">
+  <link rel="alternate" hreflang="en" href="https://example.com/en/index.html">
+  <link rel="alternate" hreflang="az" href="https://example.com/az/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.com/">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Финансы Просто",
-    "url": "https://example.com/",
-    "inLanguage": "ru",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Финансы Просто"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://example.com/#organization",
+        "name": "Финансы Просто",
+        "url": "https://example.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://example.com/#website",
+        "name": "Финансы Просто",
+        "url": "https://example.com/",
+        "inLanguage": "ru",
+        "publisher": {
+          "@id": "https://example.com/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://example.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://example.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Как начать кредитную историю в США с нуля?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Обычно начинают с secured credit card, держат utilization ниже 30% и платят вовремя каждый месяц."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Что лучше новичку: дебетовая или кредитная карта?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Дебетовая карта проще для контроля бюджета, а кредитная помогает строить кредитную историю при аккуратном использовании."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как выбрать страховку без переплаты?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Сравните несколько предложений, проверьте deductible, лимиты покрытия и реальные ежегодные расходы."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
-<body>
+<body data-search-index="search-index.json">
   <header>
     <div class="container nav">
       <a class="logo" href="index.html">Финансы Просто</a>
@@ -32,6 +92,11 @@
         <a href="contact.html">Контакты</a>
         <a href="privacy.html">Политика</a>
       </nav>
+      <div class="lang-switch" aria-label="Выбор языка">
+        <a class="lang-link is-active" href="index.html" lang="ru">RU</a>
+        <a class="lang-link" href="en/index.html" lang="en">EN</a>
+        <a class="lang-link" href="az/index.html" lang="az">AZ</a>
+      </div>
     </div>
   </header>
 
@@ -46,9 +111,9 @@
         </div>
         <div class="card">
           <div class="hero-stats">
-            <div class="stat"><strong>10+</strong><span>базовых гайдов</span></div>
-            <div class="stat"><strong>0$</strong><span>доступ к материалам</span></div>
-            <div class="stat"><strong>5 мин</strong><span>на чтение статьи</span></div>
+            <div class="stat"><strong>10+</strong><span>полезных объяснений</span></div>
+            <div class="stat"><strong>3</strong><span>языка сайта</span></div>
+            <div class="stat"><strong>5 мин</strong><span>в среднем на статью</span></div>
             <div class="stat"><strong>100%</strong><span>понятный язык</span></div>
           </div>
           <p id="rate-box" class="muted" style="margin-top:12px;">Загрузка актуальных курсов USD...</p>
@@ -56,26 +121,45 @@
       </div>
     </section>
 
+    <section class="section">
+      <div class="container">
+        <div class="search-panel card">
+          <div>
+            <h2>Поиск по статьям</h2>
+            <p class="muted">Найдите материалы по ключевым словам: credit score, страховка, дебетовая карта, кредитка.</p>
+          </div>
+          <form class="search-form" role="search">
+            <label class="sr-only" for="article-search">Поиск по статьям</label>
+            <input id="article-search" type="search" name="q" placeholder="Например: credit score" autocomplete="off">
+          </form>
+          <div id="search-suggestions" class="search-suggestions" hidden></div>
+          <p id="search-status" class="muted" aria-live="polite">Показаны все статьи.</p>
+          <div id="search-results" class="search-results" hidden></div>
+        </div>
+      </div>
+    </section>
+
     <section id="articles" class="section">
       <div class="container">
         <h2>Стартовые статьи</h2>
-        <div class="grid-3 article-list">
-          <article class="card">
+        <div class="grid-3 article-list" data-empty-message="По вашему запросу ничего не найдено. Попробуйте другое слово.">
+          <article class="card search-card" data-search="credit score кредитный рейтинг история score secured card utilization платежи вовремя">
             <span class="badge">Кредитный рейтинг</span>
             <h3><a href="articles/credit-score-start.html">Как поднять credit score с нуля</a></h3>
             <p class="muted">Пошаговый план на первые 90 дней без сложных схем.</p>
           </article>
-          <article class="card">
+          <article class="card search-card" data-search="debit credit debit card credit card дебетовая кредитная карта кэшбэк лимит">
             <span class="badge">Карты</span>
             <h3><a href="articles/debit-vs-credit.html">Дебетовая и кредитная карта: что выбрать</a></h3>
             <p class="muted">Когда лучше платить дебетом, а когда кредиткой и зачем это важно.</p>
           </article>
-          <article class="card">
+          <article class="card search-card" data-search="insurance страховка авто medical renters deductible premium">
             <span class="badge">Страхование</span>
             <h3><a href="articles/insurance-basic.html">Страховка для новичка: без переплат</a></h3>
             <p class="muted">Как выбрать базовую страховку и не купить лишнее.</p>
           </article>
         </div>
+        <p id="search-empty" class="card search-empty" hidden>По вашему запросу ничего не найдено. Попробуйте другое слово.</p>
       </div>
     </section>
 
@@ -106,6 +190,28 @@
           <p>Плати вовремя, держи utilization ниже 30% и не открывай много карт одновременно.</p>
           <p><a href="articles/credit-score-start.html">Смотреть полный план</a></p>
         </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card">
+          <h2>Частые вопросы</h2>
+          <div class="faq-list">
+            <article>
+              <h3>Как быстро начать кредитную историю?</h3>
+              <p class="muted">Начните с secured credit card, не держите высокий баланс и настройте автоплатёж хотя бы на минимальный платёж.</p>
+            </article>
+            <article>
+              <h3>Нужна ли кредитка, если уже есть дебетовая карта?</h3>
+              <p class="muted">Если ваша цель построить credit score, кредитная карта полезнее, но только при полном и своевременном погашении.</p>
+            </article>
+            <article>
+              <h3>Как найти нужную статью быстрее?</h3>
+              <p class="muted">Используйте поиск выше по темам, категориям и английским или русским ключевым словам: score, страховка, debit, cashback.</p>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   </main>

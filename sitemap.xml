@@ -1,10 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/</loc></url>
-  <url><loc>https://example.com/about.html</loc></url>
-  <url><loc>https://example.com/contact.html</loc></url>
-  <url><loc>https://example.com/privacy.html</loc></url>
-  <url><loc>https://example.com/articles/credit-score-start.html</loc></url>
-  <url><loc>https://example.com/articles/debit-vs-credit.html</loc></url>
-  <url><loc>https://example.com/articles/insurance-basic.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/index.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/articles/credit-score-start.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/credit-score-start.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/credit-score-start.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/credit-score-start.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/articles/debit-vs-credit.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/debit-vs-credit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/debit-vs-credit.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/debit-vs-credit.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/articles/insurance-basic.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/insurance-basic.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/insurance-basic.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/insurance-basic.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/index.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/articles/credit-score-start.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/credit-score-start.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/credit-score-start.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/credit-score-start.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/articles/debit-vs-credit.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/debit-vs-credit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/debit-vs-credit.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/debit-vs-credit.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/articles/insurance-basic.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/insurance-basic.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/insurance-basic.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/insurance-basic.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/az/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/index.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/az/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/az/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/az/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/az/articles/credit-score-start.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/credit-score-start.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/credit-score-start.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/credit-score-start.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/az/articles/debit-vs-credit.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/debit-vs-credit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/debit-vs-credit.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/debit-vs-credit.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/az/articles/insurance-basic.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/articles/insurance-basic.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/articles/insurance-basic.html"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://example.com/az/articles/insurance-basic.html"/>
+  </url>
 </urlset>

@@ -1,0 +1,151 @@
+[
+  {
+    "lang": "ru",
+    "title": "Как поднять credit score с нуля",
+    "category": "Кредитный рейтинг",
+    "description": "Пошаговый план на первые 90 дней без сложных схем.",
+    "url": "articles/credit-score-start.html",
+    "keywords": [
+      "credit score",
+      "кредитный рейтинг",
+      "кредитная история",
+      "secured card",
+      "utilization",
+      "платежи вовремя",
+      "fico",
+      "credit history"
+    ]
+  },
+  {
+    "lang": "ru",
+    "title": "Дебетовая и кредитная карта: что выбрать",
+    "category": "Карты",
+    "description": "Когда лучше платить дебетом, а когда кредиткой и зачем это важно.",
+    "url": "articles/debit-vs-credit.html",
+    "keywords": [
+      "дебетовая карта",
+      "кредитная карта",
+      "debit card",
+      "credit card",
+      "cashback",
+      "лимит",
+      "карты",
+      "покупки"
+    ]
+  },
+  {
+    "lang": "ru",
+    "title": "Страховка для новичка: без переплат",
+    "category": "Страхование",
+    "description": "Как выбрать базовую страховку и не купить лишнее.",
+    "url": "articles/insurance-basic.html",
+    "keywords": [
+      "страховка",
+      "страхование",
+      "insurance",
+      "medical insurance",
+      "auto insurance",
+      "renters insurance",
+      "deductible",
+      "premium"
+    ]
+  },
+  {
+    "lang": "en",
+    "title": "How to build your credit score from zero",
+    "category": "Credit score",
+    "description": "A simple first-90-days plan without risky shortcuts.",
+    "url": "en/articles/credit-score-start.html",
+    "keywords": [
+      "credit score",
+      "credit history",
+      "secured card",
+      "utilization",
+      "on time payments",
+      "fico",
+      "beginner credit",
+      "build credit"
+    ]
+  },
+  {
+    "lang": "en",
+    "title": "Debit card vs credit card: what to choose",
+    "category": "Cards",
+    "description": "When debit is safer, when credit helps, and why it matters.",
+    "url": "en/articles/debit-vs-credit.html",
+    "keywords": [
+      "debit card",
+      "credit card",
+      "cashback",
+      "limit",
+      "cards",
+      "purchase protection",
+      "debit vs credit"
+    ]
+  },
+  {
+    "lang": "en",
+    "title": "Insurance basics for beginners",
+    "category": "Insurance",
+    "description": "How to choose practical coverage without overpaying.",
+    "url": "en/articles/insurance-basic.html",
+    "keywords": [
+      "insurance",
+      "auto insurance",
+      "health insurance",
+      "renters insurance",
+      "deductible",
+      "premium",
+      "coverage"
+    ]
+  },
+  {
+    "lang": "az",
+    "title": "Credit score-u sıfırdan necə qurmaq olar",
+    "category": "Kredit balı",
+    "description": "Riskli yollar olmadan ilk 90 gün üçün sadə plan.",
+    "url": "az/articles/credit-score-start.html",
+    "keywords": [
+      "credit score",
+      "kredit bali",
+      "kredit tarixcesi",
+      "secured card",
+      "utilization",
+      "vaxtinda odeme",
+      "fico",
+      "build credit"
+    ]
+  },
+  {
+    "lang": "az",
+    "title": "Debit kart və kredit kartı: hansını seçmək olar",
+    "category": "Kartlar",
+    "description": "Debit nə vaxt rahatdır, kredit nə vaxt faydalıdır və niyə vacibdir.",
+    "url": "az/articles/debit-vs-credit.html",
+    "keywords": [
+      "debit kart",
+      "kredit karti",
+      "debit card",
+      "credit card",
+      "cashback",
+      "limit",
+      "kartlar"
+    ]
+  },
+  {
+    "lang": "az",
+    "title": "Yeni başlayanlar üçün sığorta əsasları",
+    "category": "Sığorta",
+    "description": "Lazımsız xərc etmədən uyğun sığorta seçmək üçün qısa bələdçi.",
+    "url": "az/articles/insurance-basic.html",
+    "keywords": [
+      "sigorta",
+      "insurance",
+      "auto insurance",
+      "medical insurance",
+      "renters insurance",
+      "deductible",
+      "premium"
+    ]
+  }
+]
